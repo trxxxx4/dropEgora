@@ -1,0 +1,368 @@
+/* Anonymous Pro*/
+/*Press Start 2P*/
+
+* {
+    margin: 0px;
+    font-family: "Press Start 2P", sans-serif;
+}
+
+.header {
+    height: 152px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: azure;
+    background-image: url(https://catherineasquithgallery.com/uploads/posts/2021-12/1639712055_328-catherineasquithgallery-com-p-fon-anime-dlya-intro-rozovii-448.jpg);
+    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: contrast(150%);
+    border-bottom-left-radius: 22px;
+    border-bottom-right-radius: 22px;
+}
+
+.header__container {
+    height: 100%;
+    width: 1161px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.header__title__container {
+    width: 100px;
+    width: 950px;
+    filter: blur(none);
+
+}
+
+.header__title {
+    font-size: 65px;
+    color: azure;
+    -webkit-text-stroke: 1px blueviolet;
+    filter: blur(none);
+
+
+}
+
+.main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+
+}
+
+.main__elder__container {
+    width: 1161px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 24px;
+    gap: 32px;
+}
+
+body {
+
+    background-image: url(https://catherineasquithgallery.com/uploads/posts/2021-12/1639711795_20-catherineasquithgallery-com-p-fon-anime-dlya-intro-rozovii-25.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+
+.main__block {
+    width: 1161px;
+    height: 500px;
+    background-color: white;
+    border-radius: 20px;
+    gap: 40px;
+    display: flex;
+
+}
+
+#inblock__first__section {
+    height: 100%;
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content:center;
+    /*gap: 24px;*/
+    
+
+}
+
+#inblock__second__section {
+    height: 100%;
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+#inblock__img__section {
+    width: 100%;
+    height: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#inblock__musik__section {
+    width: 100%;
+    height: 35%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    
+}
+#inblock__img{
+    width: 50%;
+    height: 90%;
+    border-radius: 12px;
+    transition: 300ms linear;
+}
+#inblock__img:hover{
+    filter: blur(2px);
+}
+.main__block__controls{
+    width: 75%;
+}
+.inblock__first__section__text{
+    padding: 25px;
+
+
+}
+.second__block{
+    width: 100%;
+    height: 55px;
+    background-color: azure;
+    display: flex;
+    align-items: center;
+    border-radius: 12px;
+
+
+}
+
+
+/*тут недоработки с выдвижным полем*/
+.second__block__section{
+    width: 100%;
+    height: 40px;
+    padding-left: 10px;
+}
+.second__block__section__figure{
+    height: 40px;
+    width: 40px;
+    rotate: 90deg;
+}
+.second__block__section__figure__rotated{
+    height: 40px;
+    width: 40px;
+    rotate: 180deg;
+    transition: 400ms linear;
+}
+
+/**//**//**//**//**/
+
+
+
+
+
+
+
+.second__block__section__active{
+    width: 90%;
+    height: 55px;
+    
+    /*transition: 400ms linear;*/
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.second__block__active{
+    width: 100%;
+    
+    background-color: azure;
+    display: flex;
+    align-items: center;
+    border-radius: 12px;
+    /*transition: 400ms linear;*/
+    flex-direction: column;
+    
+
+}
+#musik__cards__container{
+    width: 1121px;
+    display: flex;
+    flex-wrap: wrap;
+    
+    padding: 10px;
+    gap:20px
+    
+}
+.musik__card{
+    width:350px;
+    height: 500px;
+    border: 1px solid #CADEFC;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.musik__card__intocontainer{
+    width: 90%;
+    height: 90%;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+.card__img__container{
+    width: 95%;
+    height:55%;
+    display: flex;
+    justify-content: center;
+    
+}
+.card__img{
+    width: 100%;
+    height:100%;
+    border-radius: 10px;
+    transition: linear 300ms;
+}
+.card__img:hover{
+    filter: blur(2px);
+}
+.card__title{
+    display: flex;
+    justify-content:start;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+#footer{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+}
+#footer>h2{
+    transition: 300ms linear;
+    
+    
+}
+#footer>h2:hover{
+    color: goldenrod;
+    
+}
+@media screen and (max-width: 1161px){
+    .header__title {
+        font-size: 25px;
+        color: azure;
+        -webkit-text-stroke: 1px blueviolet;
+        filter: blur(none);
+    
+    
+    }
+    h1{
+        font-size: 30px;
+    }
+    h2{
+        font-size: 20px;
+    }
+    h3{
+        font-size: 17px;
+    }
+    .header__container {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    
+    }
+    .header__title__container {
+        width: 100px;
+        width: 100%;
+        filter: blur(none);
+        display: flex;
+        justify-content: center;
+    }
+    .main__elder__container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 24px;
+        gap: 32px;
+    }
+    .main__block {
+        width: 90%;
+        height: 1100px;
+        background-color: white;
+        border-radius: 20px;
+       
+        display: flex;
+        flex-direction: column;
+        align-items:start;
+    
+    }
+    #inblock__img{
+        width: 250px;
+        height: 250px;
+        border-radius: 12px;
+        transition: 300ms linear;
+    }
+    #inblock__img__section {
+        width: 250px;
+        height: 250px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #inblock__first__section {
+        
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content:space-around;
+        /*gap: 24px;*/
+        
+    
+    }
+    
+    #inblock__second__section {
+        
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+    #inblock__musik__section{
+        padding-left: 25px;
+    }
+    .second__block__active{
+        width: 90%;
+        display: flex;
+        align-items: center;
+    }
+    #musik__cards__container{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+}
